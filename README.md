@@ -81,7 +81,6 @@ TS = hyperness_recover(GED, X, nchan_per_brain, freq_indices, comp_idx);
 * **Spatial patterns.** Plot `GED.pats` (= `S*v`), not the eigenvector, when interpreting topographies (Haufe et al., 2014, *NeuroImage*, 87, 96–110).
 * **Common sources.** Shared physiology (Mayer waves, respiration) and shared stimuli produce inter-brain contributions without any interaction. GED estimates components, it does not assign them a cause; pseudo-pair controls are still needed.
 * **Granger causality.** `extras/hyperness_gc.m` implements the directed analysis with a surrogate null that circularly shifts the source series. Do not build the null by shuffling the target series: for narrow-band signals that null collapses to a different scale and declares almost everything significant. See `MIGRATION.md` for the simulation.
-* `legacy/` holds the original two-brain implementation unchanged, and `MIGRATION.md` documents every point where this version departs from it.
 
 ---
 
