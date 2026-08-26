@@ -1,3 +1,9 @@
+If you use this software in academic work, please cite the associated publication appropriately:
+
+Gaming Addiction Transmission: Interpersonal Neural Pathways Revealed by HYPER-NESS
+Chuyang Sun, Mattia Rosso, Ruoyu Niu, Xinyu Ye, Tinghao Tang, Peter Vuust, Leonardo Bonetti, Rixin Tang
+bioRxiv 2026.06.18.732549; doi: https://doi.org/10.64898/2026.06.18.732549
+
 # hyperness_fNIRS
 Social brain network analysis based on GED (fNIRS), advanced in seperate inter- and intra-brain contribution.
 
